@@ -24,34 +24,25 @@
 /* globals.css */
 @layer utilities {
   .text-primary {
-    color: #1A73E8;  /* Primary color */
+    color: #607EBC;  /* Primary text color */
   }
   .bg-primary {
-    background-color: #1A73E8;  /* Primary color */
-  }
-  .text-secondary {
-    color: #Fbbc04;  /* Secondary color */
+    background-color: #ffffff;  /* Primary color */
   }
   .bg-secondary {
-    background-color: #Fbbc04;  /* Secondary color */
+    background-color: #CFDDEE;  /* use for card */
   }
-  .text-accent {
+  .text-sucuss {
     color: #34A853;  /* Accent color */
   }
-  .bg-accent {
-    background-color: #34A853;  /* Accent color */
+  .bg-button {
+    background-color: #607EBC;  /* use for button background color */
   }
   .text-danger {
     color: #EA4335;  /* Danger color */
   }
   .bg-danger {
     background-color: #EA4335;  /* Danger color */
-  }
-  .text-brand-green {
-    color: #34A853;  /* Brand Green color */
-  }
-  .bg-brand-green {
-    background-color: #34A853;  /* Brand Green color */
   }
 }
 
