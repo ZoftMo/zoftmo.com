@@ -1,14 +1,13 @@
 import React from 'react'
-import { FaSquareFacebook, FaXTwitter } from "react-icons/fa6";
+import { FaSquareFacebook, FaXTwitter, FaLinkedin } from "react-icons/fa6";
 import { AiFillInstagram } from "react-icons/ai";
-import { PiLinkFill } from "react-icons/pi";
 import Link from 'next/link';
 
 const Footer = () => {
     const socialIcons = [
         { id: 'facebook', icon: <FaSquareFacebook className=''/> },
         { id: 'instagram', icon: <AiFillInstagram /> },
-        { id: 'website', icon: <PiLinkFill /> },
+        { id: 'website', icon: <FaLinkedin /> },
         { id: 'twitter', icon: <FaXTwitter /> },
     ]
 
