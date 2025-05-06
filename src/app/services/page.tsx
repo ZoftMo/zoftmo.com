@@ -1,8 +1,9 @@
+import Services from '@/pages/Services'
 import React from 'react'
 
 const Service = () => {
   return (
-    <div>Service</div>
+    <Services />
   )
 }
 
