@@ -1,8 +1,9 @@
+import CareerPage from '@/pages/CareerPage'
 import React from 'react'
 
 const Career = () => {
   return (
-    <div>Career</div>
+    <CareerPage />
   )
 }
 
